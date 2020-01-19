@@ -1,0 +1,171 @@
+
+
+
+.nav
+{
+
+  justify-content: space-between;
+  border: black solid 1px;
+
+}
+
+.routeLink
+{
+
+    color:black;
+    text-decoration: none;
+    opacity:1;
+    transition: opacity .1s linear;
+}
+
+
+
+.routeLink:hover/*Определяет стиль элемента при наведении на него курсора мыши, но при этом элемент еще не активирован*/
+{
+    opacity:.50;
+
+}
+
+
+
+
+.span
+{
+
+  margin-right: 1rem;
+  margin-left: 1rem;
+
+}
+
+.span-border
+{
+
+  border-right: black solid 1px;
+  padding:20px;
+}
+
+.icon__center
+{
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.total
+{
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.total__name
+{
+  display: flex;
+  align-items: center;
+}
+
+.sum
+{
+  display: flex;
+  flex-flow:  wrap;
+}
+
+.name__sum
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.count
+{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+.team
+{
+    margin: 100px 0 70px;
+}
+
+.team__inner
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+
+
+}
+
+.team__item
+{
+    width: 25%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+
+.team__img
+{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.team__name
+{
+  text-align: center;
+    font-size:22px;
+    color: black;
+    font-weight:500;
+    margin-top:30px;
+    /* высота строки */
+    line-height:1.5;
+}
+
+.team__prof
+{
+  text-align: center ;
+  margin-bottom: 15px;
+
+
+
+}
+
+.team__text
+{
+    font-size:14px;
+    line-height: 1.5;
+    color:#515369;
+    margin-bottom: 15px;
+}
+.buttons__items
+{
+  display: flex;
+  flex-direction: row;
+
+}
+.button__basket
+{
+  width: 75%;
+
+}
+
+.buttons_wishful
+{
+  width: 25%;
+ padding-top: 20px;
+ padding-bottom: 14px;
+ position: relative;
+}
+
+.icon__button
+{
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+

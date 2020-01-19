@@ -1,0 +1,106 @@
+.container__dialog
+{
+
+
+  width:500px;
+  margin: 0 auto;/*выравнить по центру*/
+  padding: 0 15px;
+  margin-top:25px;
+
+}
+.close
+{
+display: flex;
+justify-content: flex-end;
+}
+
+.dialog__close
+{
+  display: flex;
+  justify-content: flex-end;
+
+}
+.dialog__title
+{
+  margin-top: 10px;
+
+}
+
+.mat-dialog-title
+{
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.order__content
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.img__order
+{
+  width: 50%;
+}
+
+.order__items
+{
+  width: 50%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.count__order
+{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.count__text
+{
+  width: 50%;
+  margin-bottom: 5px;
+
+
+}
+
+.number
+{
+  width: 20%;
+  margin-bottom: 5px;
+}
+
+
+
+.name__order
+{
+  margin-bottom: 10px;
+}
+
+
+.button__order
+{
+  display: flex;
+  justify-content: center;
+  margin:10px auto;
+
+}
+
+.success
+{
+  background-color: rgb(22, 158, 22);
+  color: white;
+  min-width:400px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
+
+

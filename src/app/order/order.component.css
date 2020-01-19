@@ -1,0 +1,75 @@
+.container
+{
+
+    width:100%;
+    max-width:1200px;
+    margin: 0 auto;/*выравнить по центру*/
+    padding: 0 15px;
+
+
+}
+
+.contact__order
+{
+  margin-bottom:30px;
+}
+
+.contact__item
+{
+  margin-bottom: 10px;
+}
+
+.contact__item:last-child
+{
+  margin-bottom: 0px;
+ }
+
+ .btn__wish
+{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 13px;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 3px;
+    /* наследуем у родителя */
+    border: none;
+    cursor: pointer;
+    transition:background .2s linear;
+    background-color: rgb(102, 77, 248);
+    margin-bottom: 10px;
+}
+
+.btn__delte
+{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 13px;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 3px;
+    /* наследуем у родителя */
+    border: none;
+    cursor: pointer;
+    transition:background .2s linear;
+    background-color: rgb(255, 1, 1);
+    margin-bottom: 10px;
+}
+
+mat-list
+{
+  border: 1px solid black;
+}
+
+.name__phone
+{
+  text-align: center;
+}
+
+

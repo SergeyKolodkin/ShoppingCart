@@ -1,0 +1,49 @@
+
+
+
+
+<div  class="container__dialog" *ngIf="phone">
+<mat-dialog-actions class="close">
+
+    <div class="dialog__close"><button (click)="goBack()" ><i class="material-icons">close</i></button></div>
+
+
+</mat-dialog-actions>
+
+<div class="dialog__title">
+  <h2 mat-dialog-title>Добавить в корзину</h2>
+</div>
+
+<mat-dialog-content>
+<div class ="order__content">
+<div class="img__order">
+  <img class="phone__img" src="{{phone.path}}" width="250" height="250">
+</div>
+<div class="order__items">
+<div   class="name__order">
+  {{phone.name}} Details
+</div>
+
+<div class="count__order">
+  <div class="count__text">
+    Кол-во:
+  </div>
+  <input  class="number" type="number" size="3" name="num" min="1" max="10" value="1">
+</div>
+<div class="sum__order">
+  Сумма :  {{phone.price}}
+</div>
+
+
+
+</div>
+</div>
+</mat-dialog-content>
+<mat-dialog-actions class="button__order">
+
+  <div class="dialog__order"><button (click)="addToOrder(phone)" class="success" ><mat-icon class="icon__center"> shopping_cart</mat-icon> Добавить</button></div>
+
+
+</mat-dialog-actions>
+
+</div>

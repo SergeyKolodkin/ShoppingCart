@@ -1,0 +1,32 @@
+<div class="container">
+
+  <div class="cart-item" *ngFor="let wishitem of wishitems">
+    <mat-list>
+      <h3 class ="name__phone">{{wishitem.name}}</h3>
+      <mat-list-item>
+        <p mat-line>{{wishitem.name}}</p>
+
+        <p mat-line>  </p>
+        <mat-divider></mat-divider>
+        <div class="btn__items">
+
+          <button class="btn__wish">
+            В желаемое
+          </button>
+
+          <button class="btn__delte">
+            Удалить
+          </button>
+
+        </div>
+
+
+
+      </mat-list-item>
+
+    </mat-list>
+  </div>
+
+
+
+  </div>

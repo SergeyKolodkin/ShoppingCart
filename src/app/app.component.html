@@ -1,0 +1,53 @@
+<div><mat-toolbar class="nav">
+  <div class="nav__menu">
+    <span class="span span-border"><a class="routeLink" routerLink="/shopping-cart">Главная</a></span>
+    <span class="span"><a class="routeLink" routerLink="/order">Корзина</a></span>
+  </div>
+  <div class="total">
+    <div class="total__name">
+      <span class="span"><button class="buttons_wishful"  mat-button (click)="openWishMenu()"> <mat-icon class="icon__button">favorite</mat-icon></button></span>
+      <span class="span">Товаров</span>
+      <span class="span"><mat-icon class="icon__center"> shopping_cart</mat-icon></span>
+    </div>
+    <div class="sum">
+      <div class="name__sum">
+        <span class="span">В корзине</span>
+        <span class="span">На сумму</span>
+      </div>
+      <div class="count">
+        <span class="span">empaty</span>
+        <span class="span">empaty</span>
+      </div>
+    </div>
+  </div>
+</mat-toolbar>
+<router-outlet></router-outlet></div>
+
+
+
+<!-- <div class="container">
+  <div class="team" id="team">
+    <div class="container">
+        <div class="team__inner">
+            <div class="team__item">
+                <img class="team__img" src="img/team/team1.jpg" alt="">
+                <div class="team__name">Ruth Woods</div>
+                <div class="team__prof">Founder, CEO</div>
+
+                 <button class="button__basket"  mat-raised-button (click)="openDialog()"><mat-icon>shopping_cart</mat-icon> В корзину</button>
+                 <button class="buttons_wishful" mat-raised-button (click)="openDialog()"> <mat-icon class="icon__button">favorite</mat-icon></button>
+
+                </div>
+
+            </div>
+
+
+</div>
+
+
+
+
+<mat-grid-tile colspan="2">
+  <button mat-raised-button (click)="openDialog()"> В желаемое</button> -->
+
+

@@ -1,0 +1,95 @@
+
+<div class="container">
+
+  <div class="contact__order">
+
+
+    <div class="contact__item">
+      <mat-form-field appearance="outline">
+        <mat-label>Фио</mat-label>
+        <input matInput placeholder="Введите ваше ФИО">
+
+
+      </mat-form-field>
+
+    </div>
+
+    <div class="contact__item">
+      <mat-form-field appearance="outline">
+        <mat-label>Номер телефона</mat-label>
+        <input matInput placeholder="Введите ваш номер телефона" [textMask]="{mask: phoneMask}">
+
+
+      </mat-form-field>
+
+    </div>
+
+    <div class="contact__item">
+      <mat-form-field appearance="outline">
+        <mat-label>E-mail</mat-label>
+        <input matInput placeholder="Введите ваш E-mail" >
+
+
+      </mat-form-field>
+
+    </div>
+
+    <div class="contact__item">
+      <mat-form-field appearance="outline">
+        <mat-label>Адрес доставки</mat-label>
+        <input matInput placeholder=" Введите свой адрес">
+      </mat-form-field>
+
+    </div>
+
+    <div class="contact__item">
+      <mat-form-field appearance="outline">
+        <mat-label>Outline form field</mat-label>
+        <input matInput placeholder="Placeholder">
+
+
+      </mat-form-field>
+
+    </div>
+
+
+  </div>
+
+
+  <div class="cart-item" *ngFor="let item of items">
+    <mat-list>
+      <h3 class ="name__phone">{{item.name}}</h3>
+      <mat-list-item>
+        <p mat-line>{{item.name}}</p>
+
+        <p mat-line>  </p>
+        <mat-divider></mat-divider>
+        <div class="btn__items">
+
+          <button class="btn__wish">
+            В желаемое
+          </button>
+
+          <button class="btn__delte">
+            Удалить
+          </button>
+
+        </div>
+
+
+
+      </mat-list-item>
+
+    </mat-list>
+  </div>
+
+
+
+
+
+
+
+
+
+</div>
+

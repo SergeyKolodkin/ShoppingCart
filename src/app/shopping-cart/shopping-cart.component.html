@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="phones">
+    <div class="container">
+      <div class="phone__inner">
+        <div class="phone__item" *ngFor="let phone of phones">
+          <img class="phone__img" src="{{phone.path}}" width="250" height="250">
+          <div  class="phone__name" >{{phone.name}}</div>
+          <div class="phone__price">{{phone.price}} руб</div>
+
+          <button class="button__basket" mat-raised-button routerLink="/detail/{{phone.id}}">
+            <mat-icon>shopping_cart</mat-icon> В корзину
+          </button>
+          <mat-button-toggle (click)="addToWish(phone)" class="buttons_wishful" mat-raised-button #toggleBtn checked disableRipple>
+            <mat-icon class="icon__button">favorite</mat-icon>
+          </mat-button-toggle>
+        </div>
+
+
+
+
+
+      </div>
+
+
+    </div>
+

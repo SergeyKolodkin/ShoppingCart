@@ -1,0 +1,128 @@
+
+.span
+{
+
+  margin-right: 1rem;
+  margin-left: 1rem;
+
+}
+
+.span-border
+{
+
+  border-right: black solid 1px;
+  padding:20px;
+}
+
+.icon__center
+{
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.total
+{
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.total__name
+{
+  display: flex;
+  align-items: center;
+}
+
+.sum
+{
+  display: flex;
+  flex-flow:  wrap;
+}
+
+.name__sum
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.count
+{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+.phones
+{
+    margin: 100px 0 70px;
+}
+
+.phone__inner
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+
+
+}
+
+.phone__item
+{
+    width: 25%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+
+.phone__img
+{
+  margin: 0 25px;
+}
+.phone__name
+{
+  text-align: center;
+    font-size:22px;
+    color: black;
+    font-weight:500;
+    margin-top:30px;
+    /* высота строки */
+    line-height:1.5;
+}
+
+.phone__price
+{
+  text-align: center ;
+  margin-bottom: 15px;
+
+
+
+}
+
+.button__basket
+{
+  width: 75%;
+
+}
+
+
+.buttons_wishful
+{
+  width: 20%;
+  padding: 10px 0;
+ position: relative;
+}
+
+
+
+
+.icon__button
+{
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -70%)
+}
+
